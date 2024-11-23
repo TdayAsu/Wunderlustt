@@ -133,7 +133,6 @@ h4, p, q, small, nav, button, form{
     color: #fff;
   }
 
-  /*Home*/
   .main-content {
     display: flex;
     justify-content: space-between;
@@ -185,7 +184,6 @@ h4, p, q, small, nav, button, form{
   }
   
 
-  /*Second section*/
   .container {
     padding: 30px;
     background-color: #F6D64A;
@@ -235,7 +233,6 @@ h4, p, q, small, nav, button, form{
     
 }
 
-/*Testomonial*/
 .testomonialcontainers {
     margin-top: 160px;
     
@@ -293,10 +290,6 @@ h4, p, q, small, nav, button, form{
     margin-top: 10px;
 }
 
-
-/*About Container*/
-
-
 .Aboutcontainer {
     padding: 40px 20px;
     background-color: #499BD2;
@@ -344,9 +337,6 @@ h1 {
     margin: 0;
 }
 
-
-
-/*cONTACT*/
 .Contactcontainer {
     margin: 20px 80px;
     margin-bottom: 30px;
@@ -361,7 +351,6 @@ h1 {
     text-align: left; 
     margin-left: 0; 
 }
-
 
 .required {
     font-family: 'Montserrat', sans-serif;
@@ -432,9 +421,7 @@ input, select {
     border-radius: 5px;
     font-size: 14px;
     cursor: pointer;
-    margin-top: 20px;
-
-   
+    margin-top: 20px;  
 }
 
 .submit-button:hover {
@@ -462,8 +449,6 @@ footer a:hover {
     text-decoration: underline;
 }
 
-
-/*For tablet mode*/
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .navbar-header {
       display: flex;
@@ -530,7 +515,6 @@ footer a:hover {
       color: #fff;
     }
   
-    /* Home Section */
     .main-content {
       display: flex;
       flex-direction: column;
@@ -585,7 +569,6 @@ footer a:hover {
       box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     }
 
-
     .container {
         padding: 20px;
         background-color: #F6D64A;
@@ -637,8 +620,6 @@ footer a:hover {
         margin-top: 10px;
       }
     
-      /* Testimonials Section */
-
       .containers h1{
         margin-left: 120px;
         margin-top: 20px;
@@ -691,13 +672,12 @@ footer a:hover {
         text-align: center;
       }
 
-      /*About*/
       .Aboutcontainer h1 {
         text-align: left; 
         margin-left: 100px; 
         margin-right: 0; 
       }
-        /* Contact Container */
+
   .Contactcontainer {
     margin: 20px auto;
     padding: 10px;
@@ -819,7 +799,6 @@ footer a:hover {
     background-color: #6e3490;
   }
 
-  /* Footer Section */
   footer {
     margin-top: 50px;
     background-color: #f0f0f0;
@@ -842,9 +821,6 @@ footer a:hover {
   }
   }
   
-
-
-/* Media Query for Mobile version  */
 @media screen and (max-width: 768px) {
     .navbar-header {
         display: flex;
@@ -875,12 +851,10 @@ footer a:hover {
         margin: 0 0 0 10px; 
     }
 
-    /* Hide navigation links */
     .navbar ul {
         display: none;
     }
 
-    
     .navbar-header::after {
         content: "MENU"; 
         font-size: 16px;
@@ -897,8 +871,6 @@ footer a:hover {
         margin: 34px 45px; 
     }
     
-
-    /* Main Content Section */
     .main-content {
         flex-direction: column;
         padding: 20px;
@@ -949,8 +921,6 @@ footer a:hover {
     .images .bottom-image {
         margin-top: 10px;
     }
-
-
 
     .container {
         padding: 20px;
@@ -1045,10 +1015,6 @@ footer a:hover {
         gap: 5px;
     }
 
-
-    
-    
-
     .submit-button {
         width: 100%; 
         margin: 10px auto 0;
@@ -1056,8 +1022,6 @@ footer a:hover {
         text-align: center; 
     }
     
-    
-    /* Footer Section */
     footer {
         flex-direction: column; 
         align-items: center;
